@@ -8,7 +8,7 @@
 
     'author': "Razafimiandrisoa Noarison Léonce",
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.2',
     'depends': ['base', 'web', 'web_enterprise'],
     'data': [
         # 'security/ir.model.access.csv',

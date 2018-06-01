@@ -1,0 +1,110 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* customize
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-01 09:05+0000\n"
+"PO-Revision-Date: 2018-06-01 09:05+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: customize
+#: model:ir.ui.view,arch_db:customize.customize_base_view_form
+msgid "Activate this theme"
+msgstr "Appliquer cette couleur"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_brand_optional
+msgid "Button color(hexadecimal color)"
+msgstr "Couleur du bouton (couleur hexadécimale)"
+
+#. module: customize
+#: model:ir.actions.act_window,help:customize.customize_base_action
+msgid "Click to add a new color theme"
+msgstr "Cliquez pour ajouter un nouveau thème de couleur"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_odoo_brand_primary
+msgid "Color of the head(hexadecimal color)"
+msgstr "Couleur de la tête (couleur hexadécimale)"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: customize
+#: model:ir.ui.menu,name:customize.customize_base_main_menu
+msgid "Customize"
+msgstr "Personnaliser"
+
+#. module: customize
+#: model:ir.actions.act_window,name:customize.customize_base_action
+#: model:ir.ui.menu,name:customize.customize_base_sub_menu
+msgid "Customize base"
+msgstr "Personnalisation principale"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_display_name
+msgid "Display Name"
+msgstr "affichage nom"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_id
+msgid "ID"
+msgstr "ID"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base___last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_o_skew_gradient_primary
+msgid "Main Color Homepage(hexadecimal color)"
+msgstr "Couleur principale du page d'accueil(couleur hexadécimale)"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_o_skew_gradient_second
+msgid "Secondary Color Homepage(hexadecimal color)"
+msgstr "Couleurs secondaire du page d'accueil(couleur hexadécimale)"
+
+#. module: customize
+#. openerp-web
+#: code:addons/customize/static/src/xml/base.xml:13
+#, python-format
+msgid "TRAINIG"
+msgstr "TRAINIG"
+
+#. module: customize
+#: model:ir.model.fields,field_description:customize.field_customize_base_name
+msgid "Theme name"
+msgstr "Nom du thème"
+
+#. module: customize
+#: model:ir.model,name:customize.model_customize_base
+msgid "customize.base"
+msgstr "customize.base"
+

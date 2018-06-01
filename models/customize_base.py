@@ -11,10 +11,10 @@ class Customize(models.Model):
     _name = 'customize.base'
 
     name = fields.Char(string='Theme name')
-    o_skew_gradient_primary = fields.Char(string='Main color primary(hexadecimal color)')
-    o_skew_gradient_second = fields.Char(string='Main color second(hexadecimal color)')
-    odoo_brand_primary = fields.Char(string='Primary color(hexadecimal color)')
-    brand_optional = fields.Char('Optional color(hexadecimal color)')
+    o_skew_gradient_primary = fields.Char(string='Main Color Homepage(hexadecimal color)')
+    o_skew_gradient_second = fields.Char(string='Secondary Color Homepage(hexadecimal color)')
+    odoo_brand_primary = fields.Char(string='Color of the head(hexadecimal color)')
+    brand_optional = fields.Char('Button color(hexadecimal color)')
 
     def open_file_and_edit(self,file_name,text_search,text_replace):
         path = os.path.abspath(__file__)
