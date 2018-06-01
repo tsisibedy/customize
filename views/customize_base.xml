@@ -1,0 +1,66 @@
+<odoo>
+  <data>
+    <record id="customize_base_action" model="ir.actions.act_window">
+      <field name="name">Customize base</field>
+      <field name="res_model">customize.base</field>
+      <field name="view_type">form</field>
+      <field name="view_mode">tree,form</field>
+      <field name="help" type="html">
+        <p class="oe_view_nocontent_create">
+          Click to add a new color theme
+        </p>
+      </field>
+    </record>
+
+    <record id="customize_base_view_form" model="ir.ui.view">
+      <field name="name">Customize base view form</field>
+      <field name="model">customize.base</field>
+      <field name="arch" type="xml">
+        <form string="">
+          <header>
+            <button name="active_this_theme" string="Activate this theme" type="object" class="oe_highlight"/>
+          </header>
+          <sheet string="">
+            <group>
+              <field name="name"/>
+            </group>
+            <group>
+              <field name="o_skew_gradient_primary" widget="color"/>
+            </group>
+            <group>
+              <field name="o_skew_gradient_second" widget="color"/>
+            </group>
+            <group>
+              <field name="odoo_brand_primary" widget="color"/>
+            </group>
+            <group>
+              <field name="brand_optional" widget="color"/>
+            </group>
+          </sheet>
+
+        </form>
+      </field>
+    </record>
+
+    <record id="customize_base_view_tree" model="ir.ui.view">
+      <field name="name">Customize base view tree</field>
+      <field name="model">customize.base</field>
+      <field name="arch" type="xml">
+        <tree string="">
+          <field name="name"/>
+          <field name="o_skew_gradient_primary" widget="color"/>
+          <field name="o_skew_gradient_second" widget="color"/>
+          <field name="odoo_brand_primary" widget="color"/>
+          <field name="brand_optional" widget="color"/>
+
+        </tree>
+      </field>
+    </record>
+
+    <menuitem id="customize_base_main_menu" name="Customize" action="" web_icon="customize,static/src/img/customize.png"
+              parent="" sequence=""/>
+
+    <menuitem id="customize_base_sub_menu" name="Customize base" action="customize_base_action"
+              parent="customize_base_main_menu" sequence=""/>
+  </data>
+</odoo>

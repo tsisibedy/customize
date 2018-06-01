@@ -1,0 +1,17 @@
+.environment_ribbon{
+    background-color: rgba(255, 0, 0, 0.6);
+    width: 200px;
+    position: absolute;
+    top: 25px;
+    left: -35px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+    color: #f0f0f0;
+    transform: rotate(-35deg);
+    z-index: 1000;
+    position: fixed;
+    box-shadow: 0 0 3px rgba(0,0,0,.3);
+    font-size: 16px;
+    font-weight: bold;
+}

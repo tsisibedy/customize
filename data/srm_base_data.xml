@@ -1,0 +1,39 @@
+<odoo>
+  <data>
+    <template id="my_teheme_less_helpers" name="srm_base less helpers" inherit_id="web.less_helpers">
+      <xpath expr="//link[@href='/web_enterprise/static/src/less/variables.less']" position="replace">
+        <link rel="stylesheet" type="text/less" href="/customize/static/src/less/variables.less"/>
+      </xpath>
+    </template>
+
+    <template id="my_teheme_assets_backend" name="srm_base assets backend" inherit_id="web.assets_backend">
+      <xpath expr="//link[@href='/web_enterprise/static/src/less/app_switcher.less']" position="replace">
+        <link rel="stylesheet" type="text/less" href="/customize/static/src/less/app_switcher.less"/>
+      </xpath>
+    </template>
+
+    <template id="lpp_base_web_layout" name="srm_base Web layout" inherit_id="web.layout">
+      <xpath expr="//link[@type='image/x-icon' and @rel='shortcut icon']" position="replace">
+        <link type="image/x-icon" rel="shortcut icon" t-att-href="'/customize/static/src/img/customize.png'"/>
+      </xpath>
+      <xpath expr="//head/title" position="replace">
+        <title t-esc="title or 'Customize'"/>
+      </xpath>
+    </template>
+
+    <template id="assets_backend" name="web_widget_color assets" inherit_id="web.assets_backend">
+      <xpath expr="." position="inside">
+        <link rel="stylesheet" href="/customize/static/src/css/widget.css"/>
+        <script type="text/javascript" src="/customize/static/lib/jscolor/jscolor.js"></script>
+        <script type="text/javascript" src="/customize/static/src/js/widget.js"></script>
+      </xpath>
+    </template>
+
+    <!--<template id="translate_progress_bar" inherit_id="web.assets_backend">
+  <xpath expr="." position="inside">
+    <link rel="stylesheet" href="/customize/static/src/css/environment_ribbon.css"/>
+  </xpath>
+</template>-->
+
+  </data>
+</odoo>
