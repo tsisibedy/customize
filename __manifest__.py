@@ -9,12 +9,13 @@
     'author': "Razafimiandrisoa Noarison Léonce",
     'category': 'Uncategorized',
     'version': '0.1',
-    'depends': ['base', 'web','web_enterprise'],
+    'depends': ['base', 'web', 'web_enterprise'],
     'data': [
         # 'security/ir.model.access.csv',
         'data/srm_base_data.xml',
         'views/customize_base.xml',
         'views/templates.xml',
+        'data/odoo_native_theme.sql',
     ],
     'demo': [
         'demo/demo.xml',
